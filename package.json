@@ -1,0 +1,10 @@
+{
+    "name": "webhooks",
+    "version": "1",
+    "private": true,
+    "dependencies": {
+      "child_process": "^1.0.2",
+      "crypto": "^1.0.1",
+      "http": "0.0.1-security"
+    }
+  }  
