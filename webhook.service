@@ -1,12 +1,12 @@
 [Unit]
-Description=NAC Customer webhook
+Description= webhook
 After=network.target
 
 [Service]
 Environment=NODE_PORT=PORT_NUMBER_FROM_FILE
 Type=simple
 User=ubuntu
-ExecStart=/usr/bin/nodejs REPO_LOCATION
+ExecStart=/usr/bin/nodejs WEBHOOK_LOCATION
 WatchdogSec=60
 Restart=always
 
